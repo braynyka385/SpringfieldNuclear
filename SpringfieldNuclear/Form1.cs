@@ -27,7 +27,7 @@ namespace SpringfieldNuclear
         {
             //if (outputLabel.Text == "Reactor Stable")
             //{
-            outputLabel.Text = "Meltdown Imminent!";
+            outputLabel.Text = "Meltdown Imminent!!";
             SoundPlayer player = new SoundPlayer(Properties.Resources.alert);
             player.Play();
             reactor1StateLabel.BackColor = Color.Red;
